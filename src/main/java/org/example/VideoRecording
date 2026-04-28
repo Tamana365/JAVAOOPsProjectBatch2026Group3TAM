@@ -1,0 +1,59 @@
+🎬 VIDEO 1: Inheritance
+🎤 Script
+
+Inheritance in Java is a concept where one class can acquire the properties and methods of another class.
+
+It helps us reuse code and avoid duplication.
+
+The class that is inherited from is called the parent class, and the class that inherits is called the child class.
+
+For example, if we have a class Animal, and a class Lion, Lion can inherit from Animal.
+
+Benefits of inheritance include code reusability, cleaner structure, and easier maintenance.
+
+There are different types of inheritance:
+
+Single inheritance – one class inherits from one parent.
+Multilevel inheritance – a class inherits from a class that already inherited from another class.
+Hierarchical inheritance – multiple classes inherit from the same parent.
+
+Java does not support multiple inheritance with classes to avoid ambiguity, but it supports it using interfaces.
+
+🎬 VIDEO 2: Overloading
+🎤 Script
+
+Method overloading means having multiple methods with the same name but different parameters.
+
+It is achieved by changing the number of parameters or the type of parameters.
+
+For example, we can have:
+add(int a, int b) and add(int a, int b, int c)
+
+Both methods have the same name but different parameter lists.
+
+Overloading happens at compile time, so it is also called compile-time polymorphism.
+
+We can overload methods and constructors.
+
+But we cannot overload methods only by changing the return type.
+
+So method name must be same, but parameters must be different.
+
+🎬 VIDEO 3: Overriding
+🎤 Script
+
+Method overriding happens when a child class provides its own implementation of a method that already exists in the parent class.
+
+This is achieved using inheritance.
+
+For example, if Animal has a method makeSound(), the Lion class can override it to print “Roar”.
+
+Overriding happens at runtime, so it is called runtime polymorphism.
+
+The method name, parameters, and return type must be the same.
+
+We cannot override static methods or final methods.
+
+Also, access level cannot be more restrictive than the parent method.
+
+Overriding allows different classes to behave differently using the same method name.
